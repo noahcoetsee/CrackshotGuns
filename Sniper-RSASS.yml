@@ -1,0 +1,47 @@
+RSASS:
+    Item_Information:
+        Item_Name: "&eRSASS "
+        Item_Type: 2262
+        Item_Lore: "&eA Powerful semi-auto sniper |&eHas a large clip of 20 bullets."
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 120
+        Projectile_Damage: 17
+        Bullet_Spread: 2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLAZE_HIT-3-3-0,EXPLODE-3-50-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 20
+        Reload_Bullets_Individually: false
+        Reload_Duration: 55
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_EXTEND-2-2-0,PISTON_RETRACT-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 5
+        Message_Shooter: "&eHEADSHOT "
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDER_DRAGONWINGS-2-2-0
