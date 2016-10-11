@@ -1,0 +1,1024 @@
+Pistol_Viper:
+    Item_Information:
+        Item_Name: "&eViper P12"
+        Item_Type: 290
+        Item_Lore: "&ePistol|&eSemi Automatic|&eAmmo: Flint"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 12
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 6
+        Bullet_Spread: 2
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.25
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 318
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Viper P12!"
+    Reload:
+        Enable: true
+        Reload_Amount: 16
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Backstab:
+        Enable: true
+        Bonus_Damage: 2
+        Sounds_Shooter: ORB_PICKUP-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 75
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+Pistol_Thorn:
+    Item_Information:
+        Item_Name: "&eThorn 34"
+        Item_Type: 291
+        Item_Lore: "&eMachine Pistol|&eFully Automatic|&eAmmo: Flint"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 4
+        Bullet_Spread: 3.75
+        Sounds_Shoot: ZOMBIE_WOOD-1-2-0,ZOMBIE_WOOD-1-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 3
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 318
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Thorn 34!"
+    Reload:
+        Enable: true
+        Reload_Amount: 32
+        Reload_Duration: 50
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 50
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+Sniper_Hawkeye:
+    Item_Information:
+        Item_Name: "&eHawkeye M90"
+        Item_Type: 294
+        Item_Lore: "&eSniper Rifle|&eBolt-Action|&eAmmo: Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 90
+        Projectile_Damage: 10
+        Remove_Arrows_On_Impact: true
+        Bullet_Spread: 3
+        Sounds_Shoot: BLAZE_HIT-2-1-0,EXPLODE-2-0-0,ZOMBIE_WOOD-2-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 3
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Custom_Death_Message:
+        Normal: "<victim> was sniped by <shooter>'s Hawkeye M90!"
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 11
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: NOTE_STICKS-2-0-0,PISTON_RETRACT-2-2-2
+        Sound_Close: PISTON_EXTEND-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Sounds_Shooter: NOTE_PLING-2-2-0
+        Sounds_Victim: HURT-2-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 6
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 500
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+BurstRifle_Marsec:
+    Item_Information:
+        Item_Name: "&eMarsec AT-40"
+        Item_Type: 284
+        Item_Lore: "&eBurst Rifle|&eFully Automatic|&eAmmo: Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 6
+        Recoil_Amount: 1
+        Projectile_Amount: 6
+        Projectile_Type: arrow
+        Projectile_Speed: 40
+        Projectile_Damage: 8
+        Remove_Arrows_On_Impact: true
+        Bullet_Spread: 2
+        Sounds_Shoot: IRONGOLEM_HIT-2-2-0,SKELETON_HURT-2-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Marsec AT-40!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-2-1-0
+        Sounds_Reloading: FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,FIRE_IGNITE-2-1-36,HURT_FLESH-2-0-37,DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 2
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 200
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+MachineGun_Hades:
+    Item_Information:
+        Item_Name: "&eHades G2000"
+        Item_Type: 271
+        Item_Lore: "&eMachine Gun|&eFully Automatic|&eAmmo: Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 70
+        Projectile_Damage: 5
+        Bullet_Spread: 2.25
+        Remove_Arrows_On_Impact: true
+        Sounds_Shoot: IRONGOLEM_HIT-2-2-0,SKELETON_HURT-2-2-0,ZOMBIE_WOOD-2-2-0,ZOMBIE_WOOD-2-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.75
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 1
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Hades G2000!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Reload:
+        Enable: true
+        Reload_Amount: 128
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 120
+        Sounds_Out_Of_Ammo: ITEM_BREAK-2-1-0
+        Sounds_Reloading:
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+SubMachineGun_Firefly:
+    Item_Information:
+        Item_Name: "&eFirefly S98"
+        Item_Type: 269
+        Item_Lore: "&eSubmachine Gun|&eFully Automatic|&eAmmo: Flint"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 50
+        Projectile_Damage: 3
+        Bullet_Spread: 2.75
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 318
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Firefly S98!"
+    Reload:
+        Enable: true
+        Reload_Amount: 48
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-53,DOOR_CLOSE-1-2-58
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 50
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+AssaultRifle_Titan:
+    Item_Information:
+        Item_Name: "&eTitan 940-A1"
+        Item_Type: 277
+        Item_Lore: "&eAssault Rifle|&eFully Automatic|&eAmmo:Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 70
+        Bullet_Spread: 1.25
+        Remove_Arrows_On_Impact: true
+        Sounds_Shoot: IRONGOLEM_HIT-2-2-0,SKELETON_HURT-2-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.5
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 2
+        Delay_Between_Shots_In_Burst: 3
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Titan 940A1!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Reload:
+        Enable: true
+        Reload_Amount: 48
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Out_Of_Ammo: ITEM_BREAK-2-1-0
+        Sounds_Reloading: FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,FIRE_IGNITE-2-1-36,HURT_FLESH-2-0-37,DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 200
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+GatlingGun_Warmonger:
+    Item_Information:
+        Item_Name: "&eWarmonger ATS-740"
+        Item_Type: 275
+        Item_Lore: "&eGatling Gun|&eMust crouch to shoot|&eAmmo:Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 7
+        Recoil_Amount: 0
+        Projectile_Amount: 2
+        Projectile_Type: arrow
+        Projectile_Speed: 70
+        Projectile_Damage: 4
+        Bullet_Spread: 3
+        Remove_Arrows_On_Impact: true
+        Sounds_Shoot: ITEM_BREAK-2-2-2,SKELETON_HURT-2-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        Bullet_Spread: 3
+        Sneak_Before_Shooting: true
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 8
+        Delay_Between_Shots_In_Burst: 1
+    Custom_Death_Message:
+        Normal: "<victim> was blown away by <shooter>'s Warmonger ATS-740!"
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Reload:
+        Enable: true
+        Reload_Amount: 576
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 200
+        Sounds_Reloading:  FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,PISTON_RETRACT-1-2-30,PISTON_RETRACT-1-2-31,FIRE_IGNITE-2-1-196,HURT_FLESH-2-0-198,DOOR_CLOSE-2-2-197
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 200
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+BeamRifle_Nova:
+    Item_Information:
+        Item_Name: "&eNova 2-640"
+        Item_Type: 292
+        Item_Lore: "&eBeam Rifle|&eSemi Automatic Beam |&eAmmo: Flint"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 15
+        Recoil_Amount: 1
+        Projectile_Amount: 5
+        Projectile_Type: arrow
+        Projectile_Speed: 70
+        Projectile_Damage: 10
+        Remove_Arrows_On_Impact: true
+        Bullet_Spread: 0
+        Sounds_Shoot: FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 318
+    Custom_Death_Message:
+        Normal: "<victim> was beamed by <shooter>'s Nova 2-640!"
+    Reload:
+        Enable: true
+        Reload_Amount: 60
+        Take_Ammo_On_Reload: true
+        Take_Ammo_As_Magazine: true
+        Reload_Duration: 65
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 10
+        Delay_Between_Shots_In_Burst: 1
+    Firearm_Action:
+        Type: slide
+        Open_Duration: 8
+        Close_Duration: 7
+        Sound_Open: NOTE_STICKS-2-0-0,PISTON_RETRACT-2-2-2
+        Sound_Close: PISTON_EXTEND-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 8
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 100
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+Launcher_Ranger:
+    Item_Information:
+        Item_Name: "&eRanger M42-A1"
+        Item_Type: 258
+        Item_Lore: "&eGrenade Launcher|&eSemi Automatic|&eAmmo:Gunpowder"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 18
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 20
+        Projectile_Damage: 10
+        Bullet_Spread: 1
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_WOOD-2-2-0
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 289
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Ranger M42-A1!"
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 15
+        Take_Ammo_On_Reload: true
+        Reload_Bullets_Individually: true
+        Sounds_Reloading: DOOR_OPEN-1-2-5,FIRE_IGNITE-1-2-13
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-1-2-0
+        Sound_Close: DOOR_CLOSE-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 300
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+
+Carbine_Sabre:
+    Item_Information:
+        Item_Name: "&eSabre 204"
+        Item_Type: 273
+        Item_Lore: "&eCarbine|&eSemi Automatic|&eAmmo: Arrows|&cAttached XM-42|&cAmmo: Gunpowder"
+        Attachments:
+            Type: main
+            Info: "XM-42"
+            Toggle_Delay: 15
+            Sounds_Toggle: NOTE_STICKS-1-2-0
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 4
+        Bullet_Spread: 0.5
+        Sounds_Shoot: BLAZE_HIT-1-2-0,ZOMBIE_WOOD-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.4
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Sabre 204!"
+    Reload:
+        Enable: true
+        Reload_Amount: 24
+        Reload_Duration: 30
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: SKELETON_IDLE-1-0-0,FIRE_IGNITE-1-1-14,DOOR_OPEN-1-2-16,FIRE_IGNITE-1-1-26,HURT_FLESH-1-0-27,DOOR_CLOSE-1-2-28
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 8
+        Sound_Close: CLICK-1-1-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Critical_Hits:
+        Enable: true
+        Bonus_Damage: 2
+        Chance: 10
+        Sounds_Shooter: ORB_PICKUP-1-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 200
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+XM-42:
+    Item_Information:
+        Attachments:
+            Type: accessory
+            Toggle_Delay: 5
+            Sounds_Toggle: NOTE_STICKS-1-2-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: egg
+        Projectile_Speed: 25
+        Projectile_Damage: 1
+        Sounds_Shoot: EXPLODE-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 289
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 45
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: PISTON_EXTEND-1-1-10,SKELETON_WALK-1-0-20,PISTON_RETRACT-1-1-35
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 300
+        Explosion_No_Grief: true
+        Explosion_Radius: 5
+        On_Impact_With_Anything: true
+        Projectile_Activation_Time: 10
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+
+Shotgun_Centurion:
+    Item_Information:
+        Item_Name: "&eCenturion BT-6"
+        Item_Type: 293
+        Item_Lore: "&eShotgun|&eBreak Action|&eAmmo: Arrows"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 24
+        Recoil_Amount: 4
+        Projectile_Amount: 16
+        Projectile_Type: snowball
+        Projectile_Speed: 30
+        Projectile_Damage: 8
+        Projectile_Incendiary:
+            Enable: true
+            Duration: 80
+        Bullet_Spread: 2.5
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-1-2-0,GHAST_FIREBALL-1-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2.5
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Custom_Death_Message:
+        Normal: "<victim> was shot by <shooter>'s Centurion BT-6!"
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Bullets_Individually: true
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 10
+        Sounds_Reloading: NOTE_STICKS-1-1-0,NOTE_SNARE_DRUM-1-6-1
+    Firearm_Action:
+        Type: break
+        Open_Duration: 10
+        Close_Duration: 15
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        No_Fall_Damage: true
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Damage_Based_On_Flight_Time:
+        Enable: true
+        Bonus_Damage_Per_Tick: -1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Explosions:
+        Enable: true
+        Damage_Multiplier: 10
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+
+DisruptionCannon_Ragnarok:
+    Item_Information:
+        Item_Name: "&eRagnarok AL-0"
+        Item_Type: 279
+        Item_Lore: "&eDisruption Cannon|&eSemi Automatic|&eAmmo: Diamond"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 30
+        Recoil_Amount: 1
+        Projectile_Amount: 3
+        Projectile_Type: egg
+        Projectile_Speed: 35
+        Projectile_Damage: 6
+        Bullet_Spread: 1.5
+        Sounds_Shoot: BLAZE_HIT-2-1-0,EXPLODE-2-0-0,ZOMBIE_WOOD-2-2-0,ZOMBIE_WOOD-1-0-0,IRONGOLEM_HIT-2-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1.5
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 264
+    Custom_Death_Message:
+        Normal: "<victim> was dematterized by <shooter>'s Ragnarok AL-0!"
+    Reload:
+        Enable: true
+        Reload_Amount: 6
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: CLICK-2-1-0
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: DOOR_OPEN-1-2-4,DOOR_OPEN-1-2-8,DOOR_CLOSE-1-2-23,DOOR_CLOSE-1-2-38
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22
+        Particle_Hit: block_break-22
+        Particle_Headshot: block_break-22
+        Particle_Critical: block_break-22
+        Particle_Backstab: block_break-22
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Damage_Multiplier: 1000
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Incendiary: true
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Cluster_Bombs:
+        Enable: true
+        Bomblet_Type: 344
+        Delay_Before_Split: 20
+        Number_Of_Splits: 3
+        Number_Of_Bomblets: 3
+        Speed_Of_Bomblets: 6
+        Delay_Before_Detonation: 20
+        Detonation_Delay_Variation: 4
+        Particle_Release: block_break-22,lightning
+        Sounds_Release: EXPLODE-2-1-0,ENDERMAN_DEATH-2-1-0
+
+Railgun_Olympus:
+    Item_Information:
+        Item_Name: "&eOlympus U-230"
+        Item_Type: 286
+        Item_Lore: "&eRailgun|&eSingle-Shot|&eAmmo: Arrow"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 200
+        Sounds_Shoot: ZOMBIE_WOOD-2-0-0,ENDERMAN_HIT-2-2-0,ENDERMAN_DEATH-2-2-0,ENDERMAN_TELEPORT-2-1-0
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 262
+    Custom_Death_Message:
+        Normal: "<victim> was blown to pieces by <shooter>'s Olympus U-230!"
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Duration: 55
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: PISTON_EXTEND-2-0-28,NOTE_STICKS-2-1-32,NOTE_SNARE_DRUM-2-6-33,PISTON_EXTEND-2-2-48
+    Shrapnel:
+        Enable: true
+        Block_Type: 77
+        Amount: 14
+        Speed: 7
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Hurt_Effect: true
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22,smoke,explosion
+        Particle_Impact_Anything: block_break-22,flames-10
+        Particle_Hit: block_break-22,flames-10
+        Particle_Headshot: block_break-22,flames-10
+        Particle_Critical: block_break-22,flames-10
+        Particle_Backstab: block_break-22,flames-10
+    Explosions:
+        Enable: true
+        Knockback: 50
+        Damage_Multiplier: 500
+        Explosion_Radius: 2
+        On_Impact_With_Anything: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+
+PlasmaCannon_Thor:
+    Item_Information:
+        Item_Name: "&eThor Z-640"
+        Item_Type: 256
+        Item_Lore: "&ePlasma Cannon|&eFully Automatic|&eAmmo:Diamond"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 1
+        Projectile_Amount: 10
+        Projectile_Type: egg
+        Projectile_Speed: 50
+        Projectile_Damage: 10
+        Bullet_Spread: 2
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_WOOD-2-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+    Ammo:
+        Enable: true
+        Ammo_Item_ID: 264
+    Custom_Death_Message:
+        Normal: "<victim> was obliterated by <shooter>'s Archangel Y-740!"
+    Reload:
+        Enable: true
+        Reload_Amount: 8
+        Reload_Duration: 60
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: SKELETON_IDLE-2-0-10,PISTON_EXTEND-2-0-28,ENDERMAN_HIT-2-1-56,PISTOL_EXTEND-2-2-56
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Explosions:
+        Enable: true
+        Knockback: 1
+        Ignite_Victims: 10
+        Damage_Multiplier: 500
+        Enable_Owner_Immunity: true
+        Explosion_No_Grief: true
+        Explosion_Radius: 3
+        Explosion_Incendiary: true
+        Explosion_Potion_Effect: BLINDNESS-30-2,CONFUSION-20-2,SLOW-60-1,HARM-1-3
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+    Potion_Effects:
+        Activation: head,back,crit,hit
+        Potion_Effect_Victim: BLINDNESS-30-2,CONFUSION-20-2,SLOW-60-1,HARM-1-3
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-22
+        Particle_Impact_Anything: block_break-22,lightning
+        Particle_Hit: block_break-22,lightning
+        Particle_Headshot: block_break-22,lightning
+        Particle_Critical: block_break-22,lightning
+        Particle_Backstab: block_break-22,lightning
