@@ -1,0 +1,48 @@
+FiveSeven:
+    Item_Information:
+        Item_Name: "&aFiveSeven "
+        Item_Type: 294
+        Item_Lore: "&aA Semi-auto reliable pistol |&aQuick fire-rate |&aOnly a few shots needed to kill "
+        Skip_Name_Check: true
+        Enchantment_To_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 70
+        Projectile_Damage: 5
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: IRONGOLEM_HIT-1-2-0,ZOMBIE_METAL-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true 
+        Reload_Amount: 16
+        Reload_Bullets_Individually: false
+        Reload_Duration: 36
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-3-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: false
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 0
+        Zoom_Before_Shooting: false
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
