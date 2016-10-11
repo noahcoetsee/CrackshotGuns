@@ -1,0 +1,95 @@
+Knife:
+    Item_Information:
+        Item_Name: "&eCombat Knife"
+        Item_Type: 267
+        Item_Lore: "&eHit an enemy from behind to assassinate.|&eRight-Click to block melee attacks."
+        Melee_Mode: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 50
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Recoil_Amount: -2
+        Projectile_Speed: 5
+        Projectile_Damage: 0
+        Bullet_Spread: 0
+        Sounds_Shoot: STEP_WOOL-0-2-0
+    Riot_Shield:
+        Enable: true
+        Do_Not_Block_Projectiles: true
+        Durability_Based_On_Damage: true
+        Durability_Loss_Per_Hit: 1
+        Sounds_Blocked: IRONGOLEM_HIT-0-1-0
+    Backstab:
+        Enable: true
+        Bonus_Damage: 100
+        Message_Shooter: "You have assassinated <victim>!"
+        Sounds_Shooter: HURT-2-1-10
+        Sounds_Victim: HURT-2-1-10
+    Custom_Death_Message:
+        Normal: "<victim> was assassinated by <shooter>!"
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: -2
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
+    Particles:
+        Enable: true
+        Particle_Backstab: block_break-73
+
+Jetpack:
+    Item_Information:
+        Item_Name: "&eJetpack"
+        Item_Type: 288
+        Item_Lore: "&eRight-Click to use."
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 1
+        Recoil_Amount: -10
+        Projectile_Amount: 0
+        Projectile_Type: snowball
+        Projectile_Speed: 1
+        Projectile_Damage: 0
+        Bullet_Spread: 3
+        Sounds_Shoot: GHAST_FIREBALL-2-2-2
+    Reload:
+        Enable: true
+        Reload_Amount: 100
+        Reload_Bullets_Individually: false
+        Take_Ammo_On_Reload: true
+        Reload_Duration: 20
+        Sounds_Out_Of_Ammo: CLICK-1-1-0
+        Sounds_Reloading: FIRE_IGNITE-2-2-38
+    Firearm_Action:
+        Type: revolver
+        Open_Duration: 5
+        Close_Duration: 5
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Abilities:
+        No_Fall_Damage: true
+
+Shield_Energy:
+    Item_Information:
+        Item_Name: "&eEnergy Shield"
+        Item_Type: 272
+        Item_Lore: "&eHold Right-Click to activate protective shielding"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Disable: true
+    Riot_Shield:
+        Enable: true
+        Durability_Based_On_Damage: true
+        Durability_Loss_Per_Hit: 2
+        Forcefield_Mode: true
+        Sounds_Blocked: ENDERMAN_TELEPORT-2-2-0
+        Sounds_Break: ENDERMAN_DEATH-2-2-0
