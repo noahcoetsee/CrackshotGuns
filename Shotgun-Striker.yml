@@ -1,0 +1,47 @@
+Striker:
+    Item_Information:
+        Item_Name: "&aStriker "
+        Item_Type: 285
+        Item_Lore: "A powerful semi-auto shotgun|Has a large drum magazine "
+        Enchantment_To_Check: true
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 5
+        Recoil_Amount: 1
+        Projectile_Amount: 7
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 50
+        Projectile_Damage: 4
+        Bullet_Spread: 2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-2-2-0,GHAST_FIREBALL-2-1-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 12
+        Reload_Bullets_Individually: true
+        Reload_Duration: 13
+        Sounds_Reloading: NOTE_STICKS-2-1-0,NOTE_SNARE_DRUM-2-6-1
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: DOOR_OPEN-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: false
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 2
+        Zoom_Before_Shooting: false
+        Sounds_Toggle_Zoom: ENDER_DRAGONWINGS-2-2-0
