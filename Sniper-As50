@@ -1,0 +1,51 @@
+AS50:
+    Item_Information:
+        Item_Name: "&eAS50 "
+        Item_Type: 351~6
+        Item_Has_Durability: true
+        Item_Lore: "&eA powerful semi-auto sniper |&ePowerful at all ranges."      
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Recoil_Amount: 7
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 120
+        Projectile_Damage: 18
+        Remove_Arrows_On_Impact: true
+        Bullet_Spread: 2
+        Reset_Fall_Distance: true
+        Sounds_Shoot: BLAZE_HIT-2-1-0,EXPLODE-2-50-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: false
+        Reload_Duration: 45
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Firearm_Action:
+        Type: bolt
+        Open_Duration: 1
+        Close_Duration: 1
+        Sound_Open: NOTE_STICKS-2-0-0,PISTON_RETRACT-2-2-2
+        Sound_Close: PISTON_EXTEND-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Message_Shooter: "&eHEADSHOT "
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-2-2-0
