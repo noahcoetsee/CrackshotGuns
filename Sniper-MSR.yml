@@ -1,0 +1,50 @@
+MSR:
+    Item_Information:
+        Item_Name: "&eMSR "
+        Item_Type: 258
+        Item_Lore: "&eA very powerful bolt action sniper|&e Extra damage on headshots."
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 2
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 120
+        Projectile_Damage: 22
+        Bullet_Spread: 2
+        Sounds_Shoot: BLAZE_HIT-3-2-0,EXPLODE-2-50-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 2
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Bullets_Individually: false
+        Reload_Duration: 44
+        Sounds_Reloading: NOTE_STICKS-2-1-0
+    Firearm_Action:
+        Type: lever
+        Open_Duration: 11
+        Close_Duration: 11
+        Sound_Open: DOOR_OPEN-2-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 10
+        Message_Shooter: "&eHEADSHOT "
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Particles:
+        Enable:
+        Particle_Player_Shoot: smoke
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
