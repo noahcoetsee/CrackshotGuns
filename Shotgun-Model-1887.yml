@@ -1,0 +1,53 @@
+Model-1887:
+    Item_Information:
+        Item_Name: "&aModel 1887 "
+        Item_Type: 257
+        Item_Lore: "&aA very accurate shotgun "
+        Enchantment_To_Check: true
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting: 
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 3
+        Recoil_Amount: 1
+        Projectile_Amount: 6
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 60
+        Projectile_Damage: 3
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: ZOMBIE_WOOD-1-1-0,EXPLODE-2-2-0,GHAST_FIREBALL-2-1-0
+    Sneak: 
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 7
+        Reload_Bullets_Individually: true
+        Reload_Duration: 13
+        Sounds_Reloading: NOTE_STICKS-2-1-0,NOTE_SNARE_DRUM-2-6-1
+    Firearm_Action:
+        Type: pump
+        Open_Duration: 8
+        Close_Duration: 8
+        Sound_Open: DOOR_OPEN-3-2-0
+        Sound_Close: DOOR_CLOSE-2-2-0
+    Headshot:
+        Enable: true
+        Bonus_Damage: 3
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 1
+    Particles:
+        Enable:
+        Particle_Player_Shoot: smoke
+    Scope:
+        Enable: true
+        Night_Vision: false
+        Zoom_Amount: 4
+        Zoom_Bullet_Spread: 1
+        Zoom_Before_Shooting: false
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
