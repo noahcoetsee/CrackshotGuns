@@ -1,0 +1,58 @@
+MP7:
+    Item_Information:
+        Item_Name: "&eMP7"
+        Item_Type: 388
+        Item_Has_Durability: true
+        Item_Lore: "Fast RPM, but low power SMG"
+        Enchantment_To_Check: true
+        Skip_Name_Check: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Delay_Between_Shots: 0
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Remove_Arrows_On_Impact: true
+        Projectile_Speed: 60
+        Projectile_Damage: 2
+        Bullet_Spread: 1
+        Reset_Fall_Distance: true
+        Sounds_Shoot: GLASS-2-2-0,SKELETON_HURT-2-2-0,ORB_PICKUP-1-2-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 1
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 3
+        Delay_Between_Shots_In_Burst: 1
+    Reload:
+        Enable: true
+        Reload_Amount: 40
+        Reload_Bullets_Individually: false
+        Reload_Duration: 20
+        Sounds_Reloading: FIRE_IGNITE-2-1-4,DOOR_OPEN-2-2-6,FIRE_IGNITE-2-1-36,HURT_FLESH-2-0-37,DOOR_CLOSE-2-2-38
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-2
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 5
+    Backstab:
+        Enable: true
+        Bonus_Damage: 1
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Scope:
+        Enable: true
+        Night_Vision: false
+        Zoom_Amount: 2
+        Zoom_Bullet_Spread: 0
+        Zoom_Before_Shooting: false
+        Sounds_Toggle_Zoom: ENDERDRAGON_WINGS-2-2-0
